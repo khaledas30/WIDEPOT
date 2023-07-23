@@ -49,7 +49,9 @@
     - To install kubectl, follow the instructions in the official Kubernetes documentation based on operating system: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
     - Install AWS IAM Authenticator:
-      ``` sudo apt install -y awscli```
+      ```bash
+        sudo apt install -y awscli
+     ```
 
     - Verify Installation:
      ``` aws-iam-authenticator version```
