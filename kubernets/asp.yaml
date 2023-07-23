@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: aspnt
+  name: aspnt
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: aspnt
+  strategy:
+    type: RollingUpdate # Add the deployment strategy (you can also use Recreate if needed)
+  template:
+    metadata:
+      labels:
+        app: aspnt
+    spec:
+      containers:
+      - image: khaledashraf30/aspent-app
+        name: aspent-app
+        resources: {}
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ENVIRONMENT
+          value: "DEV"
+        - name: HOST
+          value: "localhost"
+        - name: PORT
+          value: "8080"
+        - name: REDIS_HOST
+          value: "redis-service"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: SQL_HOST
+          value: "sql-service"
+        - name: SQL_PORT
+          value: "1433"
+status: {}
