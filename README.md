@@ -98,6 +98,7 @@ kubectl get all
 
 
 
+![Alt text](./screenshots/aspntapp.jpeg)
 
 
 
