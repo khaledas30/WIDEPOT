@@ -77,7 +77,7 @@ kubectl create -f sql.yml    [ in the sql file contain its service  ]
 kubectl get all 
 ```
 
-![Alt text] (./screenshots/Screenshot 2023-07-23 224117.png)
+![Alt text] (./screenshots/kub.png)
 
 
 ### The application 
