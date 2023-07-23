@@ -72,7 +72,9 @@
 
     - update your kubeconfig and connect to your AWS EKS cluster
 
-    ``` aws eks update-kubeconfig --name your-cluster-name --region your-region```
+    ```bash
+        aws eks update-kubeconfig --name your-cluster-name --region your-region
+    ```
     ## image 
 - Create Dockerfile to the webapp
 > - docker build -t <name> .
