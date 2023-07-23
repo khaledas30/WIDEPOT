@@ -13,7 +13,7 @@
  - AWS: Amazon Web Services (AWS) is a cloud computing platform used to host and manage the infrastructure and resources required for the project. 
 
 
-![Alt text](./screenshots/Enable Amazon Elastic Block Storage (EBS) within my cluster)
+![Alt text](./screenshots/AmazonEKS_EBS_CSI_DriverRole.png)
 
 ## Project Execution
 
