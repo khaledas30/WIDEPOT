@@ -35,7 +35,7 @@
 
 ## Part 2: Infrastructure Overview
 
-![Alt text](./screenshots/219943454-87413bbe-c0e8-42ab-9fe0-380e6c0a567a)
+![Alt text](./screenshots/219943454-87413bbe-c0e8-42ab-9fe0-380e6c0a567a.png)
 
 - 1- The first step is to to build the infrastructure. 
     - To initialize Terraform:
