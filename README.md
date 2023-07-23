@@ -39,11 +39,17 @@
 
 - 1- The first step is to to build the infrastructure. 
     - To initialize Terraform:
-      ``` terraform init ```
+      ```bash
+       terraform init
+       ```
     - To execute a Terraform plan:
-      ``` terraform plan ```
+      ```bash
+       terraform plan
+       ```
     - To apply the Terraform plan and build the infrastructure:
-      ``` terraform apply ```
+      ```bash
+       terraform apply
+       ```
 
 - 2- Install kubectl and the AWS cloud plugin and then 
     - To install kubectl, follow the instructions in the official Kubernetes documentation based on operating system: https://kubernetes.io/docs/tasks/tools/install-kubectl/
@@ -54,10 +60,14 @@
      ```
 
     - Verify Installation:
-     ``` aws-iam-authenticator version```
+     ```bash
+     aws-iam-authenticator version
+     ```
 
     - AWS CLI Configuration:
-    ``` aws sts get-caller-identity```
+  ```bash
+    aws sts get-caller-identity
+   ```
 
 
     - update your kubeconfig and connect to your AWS EKS cluster
