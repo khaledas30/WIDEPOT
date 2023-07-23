@@ -57,17 +57,17 @@
     - Install AWS IAM Authenticator:
       ```bash
         sudo apt install -y awscli
-     ```
+      ```
 
-    - Verify Installation:
+   - Verify Installation:
      ```bash
-     aws-iam-authenticator version
+       aws-iam-authenticator version
      ```
 
     - AWS CLI Configuration:
-  ```bash
-    aws sts get-caller-identity
-   ```
+     ```bash
+       aws sts get-caller-identity
+     ```
 
 
     - update your kubeconfig and connect to your AWS EKS cluster
